@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Playfair Display;
+}
+body {
+  margin-top: 70px;
+}
+.card {
+  width: 480px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card__img {
+  background-image: url(./img.png);
+  height: 380px;
+  background-size: cover;
+}
+.card__content {
+  padding: 40px;
+  text-align: center;
+}
+.content__title--small {
+  text-transform: uppercase;
+  letter-spacing: 13px;
+  font-family: Montserrat;
+}
+.content__title--big {
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  font-size: 80px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+.content__line {
+  display: block;
+  font-size: 120px;
+  line-height: 50px;
+  font-family: Nanum Myeongjo;
+  margin-bottom: 15px;
+}
+.content__text {
+  margin-bottom: 45px;
+}
+.content__button {
+  margin: auto;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  width: 350px;
+  background-color: #000000;
+  padding: 15px 0;
+  border-radius: 30px;
+  color: #fefefe;
+  font-family: Montserrat;
+}
